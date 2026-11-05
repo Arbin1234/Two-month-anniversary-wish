@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7d7e8">
+  <title>Happy 2 Months Anniversary ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-hearts" id="ambientHearts" aria-hidden="true"></div>
+
+  <header class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="eyebrow">A LITTLE CELEBRATION OF US</p>
+      <div class="big-heart" aria-hidden="true">♥</div>
+      <h1>Happy 2 Months<br><span>Anniversary, My Love!</span> ❤️</h1>
+      <p class="hero-subtitle">Two beautiful months, countless little moments, and so many memories still waiting for us.</p>
+      <button class="primary-btn" id="openHeartBtn">Open My Heart 💌</button>
+      <p class="tiny-note">Made with love, just for you</p>
+    </div>
+    <a class="scroll-cue" href="#music" aria-label="Scroll to the next section">↓</a>
+  </header>
+
+  <main>
+    <H2>I Love You my Mrs. Thapa[Future Shiwani Thapa]</H2>
+    <section class="section music-section" id="music">
+      <div class="section-heading">
+        <p class="eyebrow">PRESS PLAY</p>
+        <h2>Our Special Song 🎵</h2>
+        <p>A little music to make this moment even sweeter.</p>
+      </div>
+      <div class="music-card">
+        <div class="music-art" aria-hidden="true"><span>♫</span><i>♥</i></div>
+        <div class="music-info">
+          <h3>Our Special Song</h3>
+          <p>Play our song while you explore this little surprise.</p>
+          <div class="music-controls">
+            <button class="music-btn" id="musicToggle" type="button">▶ Play song</button>
+            <label class="volume-control">Volume
+              <input id="volumeSlider" type="range" min="0" max="100" value="65" aria-label="Music volume">
+            </label>
+          </div>
+          <p class="music-hint" id="musicStatus">Music starts when you press Play.</p>
+        </div>
+      </div>
+      <div id="youtubePlayer" class="youtube-player" aria-label="YouTube music player"></div>
+      <p class="youtube-note">The song plays through the official YouTube player. YouTube controls and availability may vary by region.</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE SURPRISE</p>
+        <h2>Open Your Letter 💌</h2>
+        <p>Tap the envelope to read a message from the heart.</p>
+      </div>
+      <button class="envelope-button" id="envelopeButton" type="button" aria-label="Open the anniversary letter">
+        <span class="envelope">
+          <span class="envelope-flap"></span>
+          <span class="envelope-heart">♥</span>
+          <span class="envelope-label">For you</span>
+        </span>
+      </button>
+      <article class="letter-paper" id="letterPaper" aria-live="polite">
+        <p class="letter-date">A NOTE FOR MY FAVOURITE PERSON</p>
+        <h3>My dearest, ❤️</h3>
+        <p id="typedLetter"></p>
+        <p class="letter-signoff">With lots of love,<br><span>Someone who is grateful for you</span></p>
+      </article>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS</p>
+        <h2>Our Memory Gallery 📸</h2>
+        <p>Add your favourite pictures and make this page yours.</p>
+      </div>
+      <div class="gallery-grid">
+        <label class="photo-card"><img id="photo1" src="" alt="Your first memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo1"></label>
+        <label class="photo-card"><img id="photo2" src="" alt="Your second memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo2"></label>
+        <label class="photo-card"><img id="photo3" src="" alt="Your third memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo3"></label>
+        <label class="photo-card"><img id="photo4" src="" alt="Your fourth memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo4"></label>
+        <label class="photo-card"><img id="photo5" src="" alt="Your fifth memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo5"></label>
+        <label class="photo-card"><img id="photo6" src="" alt="Your sixth memory"><span class="photo-placeholder">＋<small>Add a photo</small></span><input type="file" accept="image/*" data-preview="photo6"></label>
+      </div>
+      <p class="upload-tip">Choose a photo card to upload a picture from your device. Photos preview in this browser session.</p>
+    </section>
+
+    <section class="section counter-section" id="counter">
+      <div class="section-heading">
+        <p class="eyebrow">EVERY SECOND COUNTS</p>
+        <h2>Our Time Together ⏳</h2>
+        <p>And the sweetest part is that our story is still being written.</p>
+      </div>
+      <div class="counter-grid">
+        <div class="counter-box"><strong id="days">00</strong><span>Days</span></div>
+        <div class="counter-box"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="counter-box"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="counter-box"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    
+    </section>
+
+    <section class="section message-section">
+      <div class="message-card">
+        <p class="eyebrow">ONE MORE LITTLE SURPRISE</p>
+        <h2>A message just for you ❤️</h2>
+        <p class="random-message" id="randomMessage">You make ordinary moments feel special.</p>
+        <button class="secondary-btn" id="surpriseBtn" type="button">A Little Surprise ❤️</button>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-heart">♥</div>
+      <p class="eyebrow">TO BE CONTINUED...</p>
+      <h2>Two months down,<br><span>forever to go.</span></h2>
+      <p>Thank you for being a beautiful part of my life. ❤️</p>
+      <div class="heart-row" aria-hidden="true">♡　♥　♡　♥　♡</div>
+    </section>
+  </main>
+
+  <footer>Made with <span>♥</span> for a very special person</footer>
+  <script src="script.js"></script>
+  <script src="https://youtu.be/GLEx6bhPu7s?si=_llOU9hHg3WInJt4"></script>
+</body>
+</html>
